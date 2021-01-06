@@ -4,11 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript</title>
+    <style>
+        .container{
+            border: 3px solid red;
+            margin :3px 0px;
+            background-color: cyan;
+            padding :9px;
+        }
+        .bg-primary{
+            background-color: blueviolet;
+        }
+        .text-success{
+            background-color: yellowgreen;
+        }
+    </style>
 </head>
 <body>
     <h1>Welcome to Javascript Tutorial</h1>
     <div id="firstcontainer" class="container">
-        <button id="click">Click Me</button>
+        <button id="click" onclick="clicked()">Click Me</button>
+        <p>This is a paragraph which is the best para of this universe</p>
     </div>
     <div class="container">
         <p>This is paragraph</p>
@@ -21,7 +36,14 @@
 
     <!-- <script src="js_func.js"></script> -->
 
-    <script src="js_loops.js"></script>
+    <!-- <script src="js_loops.js"></script> -->
+    
+    <!-- <script src="js_array_methods.js"></script> -->
+    
+    <!-- <script src="js_dom_manipulation.js"></script> -->
+    
+    <script src="js_events.js"></script>
+    
     <script>
         // 1.Ways to print in Javascript
         //  alert("Hello World");
