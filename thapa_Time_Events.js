@@ -62,7 +62,7 @@
     // SetInetrval
     const stpNum = document.querySelector("p");
     const btn = document.querySelector("#btn");
-    const stopInterval = docuemnt.querySelector("#btn1");
+    const stopInterval = document.querySelector("#btn1");
     let timeref;
     let num = 0;
     // setInterval :: fat arrow
@@ -79,7 +79,7 @@
     btn.addEventListener("click", showNum);
 
     stopInterval.addEventListener("click", () => {
-      clearInterval("timeref");
+      clearInterval(timeref);
     });
   </script>
 </html>
